@@ -1,7 +1,6 @@
-
 # ☁️ AWS EC2 Automation Dashboard using Streamlit & Boto3
 
-A powerful, web-based EC2 automation tool built with **Python**, **Streamlit**, and **Boto3**.  
+A powerful, web-based EC2 automation tool built with **Python**, **Streamlit**, and **Boto3**.
 Easily launch, start, stop, and terminate EC2 instances in the **Mumbai (ap-south-1)** region — all from a beautiful UI.
 
 ---
@@ -9,18 +8,22 @@ Easily launch, start, stop, and terminate EC2 instances in the **Mumbai (ap-sout
 ## 🚀 Features
 
 ✅ **Launch EC2 Instances**
-- Auto or custom **Key Pair**
-- Auto or custom **Security Group** (with SSH access)
-- Set custom **Instance Name Tag**
+
+* Auto or custom **Key Pair**
+* Auto or custom **Security Group** (with SSH access)
+* Set custom **Instance Name Tag**
 
 ✅ **Create Resources**
-- Downloadable `.pem` file for Key Pairs
-- SSH-enabled Security Groups
+
+* Downloadable `.pem` file for Key Pairs
+* SSH-enabled Security Groups
 
 ✅ **Manage EC2 Instances**
-- View all running instances with details
-- Start / Stop / Terminate selected instance
 
+* View all running instances with details
+* Start / Stop / Terminate selected instance(s)
+
+---
 
 ## 🛠️ Getting Started
 
@@ -29,11 +32,11 @@ Easily launch, start, stop, and terminate EC2 instances in the **Mumbai (ap-sout
 ```bash
 git clone https://github.com/hiteshsingh01/AWS_Dashboad.git
 cd AWS_Dashboad
-````
+```
 
 ### 2. Install Python Packages
 
-*No `requirements.txt` needed!*
+> No `requirements.txt` needed!
 
 ```bash
 pip install streamlit boto3
@@ -46,7 +49,7 @@ aws configure
 ```
 
 * Region: `ap-south-1`
-* Credentials: Your IAM user’s Access Key + Secret
+* Credentials: Your IAM user’s Access Key & Secret Key
 
 ---
 
@@ -56,13 +59,13 @@ aws configure
 streamlit run aws_ec2_dashboard.py
 ```
 
-Visit: [http://localhost:8501](http://localhost:8501)
+Open: [http://localhost:8501](http://localhost:8501)
 
 ---
 
 ## 🔐 Required IAM Permissions
 
-Your IAM user should have the following EC2 permissions:
+Ensure your IAM user has these EC2 permissions:
 
 * `ec2:RunInstances`
 * `ec2:TerminateInstances`
@@ -78,38 +81,40 @@ Your IAM user should have the following EC2 permissions:
 
 ## 🧰 Tech Stack
 
-| Tool      | Use Case                |
-| --------- | ----------------------- |
-| Python    | Backend logic           |
-| Streamlit | UI & web framework      |
-| Boto3     | AWS SDK for Python      |
-| AWS EC2   | Cloud compute instances |
+| Tool      | Purpose              |
+| --------- | -------------------- |
+| Python    | Backend scripting    |
+| Streamlit | Web app interface    |
+| Boto3     | AWS automation       |
+| AWS EC2   | Cloud infrastructure |
 
 ---
 
 ## 📁 Project Structure
 
 ```
-aws_ec2_dashboard/
-├── aws_ec2_dashboard.py     # Streamlit App
-└── README.md                # This file
+AWS_Dashboad/
+├── aws_ec2_dashboard.py     # Streamlit app
+└── README.md                # Project documentation
 ```
 
+---
 
 ## 📄 License
 
-This project is open-sourced under the [MIT License](LICENSE).
+Licensed under the [MIT License](LICENSE).
 
 ---
 
 ## 👨‍💻 Author
 
 **Hitesh Singh**
-🔗 [LinkedIn](https://www.linkedin.com/in/hiteshsingh01/)
-💻 [GitHub](https://github.com/hiteshsingh01/AWS_Dashboad)
+🔗 [LinkedIn – Hitesh Singh](https://www.linkedin.com/in/hiteshsingh01/)
+💻 [GitHub – hiteshsingh01](https://github.com/hiteshsingh01)
 
 ---
 
-> Built with ❤️ to simplify DevOps and Cloud automation.
+> Built with ❤️ to simplify DevOps and AWS Cloud automation.
 
+---
 
