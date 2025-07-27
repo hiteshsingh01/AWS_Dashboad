@@ -27,8 +27,8 @@ Easily launch, start, stop, and terminate EC2 instances in the **Mumbai (ap-sout
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/jayant77778/aws_ec2_dashboard.git
-cd aws_ec2_dashboard
+git clone https://github.com/hiteshsingh01/AWS_Dashboad.git
+cd AWS_Dashboad
 ````
 
 ### 2. Install Python Packages
