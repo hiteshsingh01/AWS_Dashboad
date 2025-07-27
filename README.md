@@ -104,7 +104,7 @@ This project is open-sourced under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-**Jayant Bhati**
+**Hitesh Singh**
 🔗 [LinkedIn](https://www.linkedin.com/in/hiteshsingh01/)
 💻 [GitHub](https://github.com/hiteshsingh01/AWS_Dashboad)
 
