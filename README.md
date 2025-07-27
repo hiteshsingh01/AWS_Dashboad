@@ -105,8 +105,8 @@ This project is open-sourced under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **Jayant Bhati**
-🔗 [LinkedIn](https://www.linkedin.com/in/jayantbhati77/)
-💻 [GitHub](https://github.com/jayant77778/aws_ec2_dashboard)
+🔗 [LinkedIn](https://www.linkedin.com/in/hiteshsingh01/)
+💻 [GitHub](https://github.com/hiteshsingh01/AWS_Dashboad)
 
 ---
 
